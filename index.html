@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather Dashboard </title>
+    <link rel="icon" href="./assets/img/logo.png">
+    
+    <!-- ? ======> Linking Fontawsome -->
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+
+    <!-- ? ======> Linking bootstrap -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+    <!-- ? ======> Linking css file -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- ? ======>    Linking fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="bg"></div>
+    <div class="container-fluid vh-100">
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand h1" href="#"> Weather Dashboard </a>
+            </div>
+        </nav>
+
+        <div class="searchContainer bg-white mx-auto my-5 shadow-lg">
+          <input id="cityInput" type="text" placeholder="Search city..." class="cityInput">
+          <button id="searchBtn" class="searchBtn">Search</button>
+        </div>
+
+        <div id="todayWeather" class="mx-auto shadow-lg">
+          
+        </div>
+        <h2 class="text-center py-5"> Weather For The Upcoming 3 Days </h2>
+        <div id="upcomingDaysWeather" class="row g-4 justify-content-center">
+
+        </div>
+    </div>
+
+    <!-- ? ======> Linking bootstrap -->
+    <script src="./assets/js/bootstrap.bundle.min.js"> </script>
+    
+    <!-- ? ======> Linking JS file -->
+    <script src="./assets/js/main.js"> </script>
+</body>
+</html>

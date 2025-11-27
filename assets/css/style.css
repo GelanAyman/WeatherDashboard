@@ -1,0 +1,95 @@
+:root {
+    --main-color: #662222;
+    --second-color: #EFE9E3;
+
+}
+
+body {
+    font-family: "Exo 2", sans-serif;
+    color: var(--main-color);
+}
+nav a {
+    color: inherit !important;
+}
+
+#bg {
+    position: fixed;
+    height: 100vh;
+    width:100vw;
+    background: linear-gradient(135deg, #EFE9E3, #C9B59C);
+    z-index: -5;
+}
+.searchContainer {
+    width: 40%;
+    padding: 16px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.cityInput {
+    flex: 1;
+    border-radius: 24px;
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+}
+.cityInput:focus,
+.cityInput:focus-visible {
+    outline: none;
+}
+.searchBtn {
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    padding: 12px;
+}
+#todayWeather {
+    background-color: #fff;
+    width: 40%;
+    border-radius: 24px;
+    padding: 12px 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+#todayWeather:hover {
+    transform: scale(1.05);
+}
+
+.upcomingDayCard {
+    background-color: #fff;
+    border-radius: 24px;
+    text-align: center;
+    width: 250px;
+    padding: 12px 24px;
+    transition: 0.5s;
+}
+.upcomingDayCard:hover {
+    transform: translateY(-8px);
+}
+.smallIcon{
+    width: 40px;
+}
+
+
+
+
+
+
+
+.btn-outline-success {
+    --bs-btn-color: var(--secondary-color);
+    --bs-btn-border-color: var(--secondary-color);
+    --bs-btn-hover-bg: var(--secondary-color);
+    --bs-btn-hover-border-color: var(--secondary-color);
+    --bs-btn-active-bg: var(--secondary-color);
+    --bs-btn-active-border-color: var(--secondary-color);
+    --bs-btn-disabled-color: var(--secondary-color);
+    --bs-btn-disabled-border-color: var(--secondary-color)
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--secondary-color)
+}
+ 
